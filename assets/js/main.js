@@ -44,7 +44,7 @@ function initMobileWhatsAppCta() {
   link.href = buildWhatsAppLink(contact.whatsappMessage || 'Hello Ayanfe Couture, I would like to make an enquiry.', '');
   link.target = '_blank';
   link.rel = 'noreferrer';
-  link.textContent = 'Enquire on WhatsApp';
+  link.innerHTML = '<i class="fa-brands fa-whatsapp"></i>';
   link.setAttribute('aria-label', 'Enquire with Ayanfe Couture on WhatsApp');
   document.body.appendChild(link);
 }
