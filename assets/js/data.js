@@ -4,7 +4,7 @@ window.ayanfeData = {
     phoneHref: 'tel:+2349054178927',
     whatsapp: 'https://wa.me/2349054178927',
     whatsappMessage: 'Hello Ayanfe Couture, I visited your website and would love to learn more about your fashion collections and services. Please assist me with further information. Thank you.',
-    email: 'ayanfecouture@gmail.com',
+    email: 'ayanfecouture01@gmail.com',
     emailSubject: 'Ayanfe Couture — Fashion Enquiry',
     emailBody: 'Hello Ayanfe Couture,\n\nI would like to enquire about your fashion collections and services. Please let me know more about the options that best suit my needs.\n\nThank you.'
   },

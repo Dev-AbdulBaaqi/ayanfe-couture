@@ -69,7 +69,7 @@ function initGenericLinks() {
   });
 
   document.querySelectorAll('[data-email-general]').forEach((el) => {
-    el.href = `mailto:${contactInfo.email || 'ayanfecouture@gmail.com'}?subject=${encodeURIComponent(contactInfo.emailSubject || 'Ayanfe Couture — Fashion Enquiry')}&body=${encodeURIComponent(contactInfo.emailBody || 'Hello Ayanfe Couture, I would like to enquire about your services.')}`;
+    el.href = `mailto:${contactInfo.email || 'ayanfecouture01@gmail.com'}?subject=${encodeURIComponent(contactInfo.emailSubject || 'Ayanfe Couture — Fashion Enquiry')}&body=${encodeURIComponent(contactInfo.emailBody || 'Hello Ayanfe Couture, I would like to enquire about your services.')}`;
   });
 }
 

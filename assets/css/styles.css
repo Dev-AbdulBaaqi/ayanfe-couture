@@ -283,3 +283,37 @@ input:focus, select:focus, textarea:focus { outline: 2px solid rgba(197,162,83,.
     min-height: 52px; padding: .8rem 1.25rem; border: 1px solid rgba(255,255,255,.15); border-radius: 999px; background: var(--gold); color: var(--black);
     font-weight: 700; text-align: center; box-shadow: 0 12px 30px rgba(0,0,0,.38); animation: rise-in .45s ease-out both;
   } */
+
+.page-contact .contact-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) !important;
+}
+
+.page-custom-tailoring .split-grid {
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr) !important;
+}
+
+.page-contact .contact-grid > *,
+.page-custom-tailoring .split-grid > *,
+.page-contact .form-shell,
+.page-custom-tailoring .form-shell,
+.page-contact .field,
+.page-custom-tailoring .field {
+  min-width: 0;
+}
+
+.page-contact .form-shell,
+.page-custom-tailoring .form-shell {
+  width: 100%;
+}
+
+.page-contact .list-inline a,
+.page-custom-tailoring .list-inline a {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  .page-contact .contact-grid,
+  .page-custom-tailoring .split-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
